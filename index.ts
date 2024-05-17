@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+
+
 import inquirer from "inquirer";
 
 let myBalance = 10000; // Dollar
@@ -13,6 +16,7 @@ let pinAnswer = await inquirer.prompt(
     ]
 );
 if (pinAnswer.pin === myPin) 
+    
     {
         console.log("Correct pin code");
         let operationAns = await inquirer.prompt
@@ -65,5 +69,6 @@ if (pinAnswer.pin === myPin)
 
 
                 
-        else  console.log("incorrect pin number");
+      
     }
+    else  console.log("incorrect pin number");

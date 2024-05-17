@@ -1,9 +1,10 @@
 {
-  "name": "c5atmgitdesktop",
-  "version": "1.0.0",
+  "name": "c5atmgitdesktopshoaibalisher",
+  "version": "1.0.3",
   "description": "ATM Code",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

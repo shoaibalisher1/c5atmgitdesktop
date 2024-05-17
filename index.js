@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let myBalance = 10000; // Dollar
 let myPin = 9999;
@@ -42,6 +43,6 @@ if (pinAnswer.pin === myPin) {
                 choices: ["5000", "10000", "20000"]
             }
         ]);
-    else
-        console.log("incorrect pin number");
 }
+else
+    console.log("incorrect pin number");
